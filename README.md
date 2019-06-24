@@ -1,3 +1,9 @@
+# Content
+
+- [Bug?](#bug?)
+- [Reproduce](#reproduce)
+- [Info](#info)
+
 ## Bug?
 
 not sure what's going on, but latest version of bookdown (0.11) isn't working. bookdown 0.7 seems to work, but still a bit buggy..
@@ -10,7 +16,7 @@ not sure what's going on, but latest version of bookdown (0.11) isn't working. b
 
 ![v0.11](images/v0.11.png)
 
-## reproduce
+## Reproduce
 
 ```
 git clone https://github.com/serine/test
@@ -18,6 +24,8 @@ cd test
 make
 firefox docs/check.html
 ```
+
+## Info
 
 ```
 (ins)[biostation2]~/gitrepos/test (master)$ make clean; make
@@ -67,4 +75,28 @@ Web:  http://pandoc.org
 This is free software; see the source for copying conditions.
 There is no warranty, not even for merchantability or fitness
 for a particular purpose.
+```
+
+```
+(ins)[biostation2]~/gitrepos/test (master)$ R
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+(ins)>
 ```
