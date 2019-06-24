@@ -4,7 +4,7 @@
 all : html
 
 html :
-	mkdir docs
+	if [ ! -d docs ];then mkdir docs;fi
 	cd book; \
 	Rscript -e "bookdown::render_book('.', 'bookdown::gitbook')"
 
