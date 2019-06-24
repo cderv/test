@@ -13,7 +13,8 @@ not sure what's going on, but latest version of bookdown (0.11) isn't working. b
 ## reproduce
 
 ```
-git clone
+git clone https://github.com/serine/test
+cd test
 make
 firefox docs/check.html
 ```
